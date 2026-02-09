@@ -1,0 +1,39 @@
+﻿Сборка начата 11.10.2014 23:05:21.
+     1>Проект "C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Engine Hack Base\Engine Hack Base.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Oi /Os /Oy /GT /GL /D WIN32 /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /arch:IA32 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ClientDll\ClientDll.cpp Main.cpp
+         ClientDll.cpp
+         Main.cpp
+       Link:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Release\Engine Hack Base.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Release\Engine Hack Base.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /NXCOMPAT /IMPLIB:"C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Release\Engine Hack Base.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\cFont.obj
+         Release\colors.obj
+         Release\font.obj
+         Release\TableFont.obj
+         Release\ClientDll.obj
+         Release\confuncs.obj
+         Release\console.obj
+         Release\cvars.obj
+         Release\Drawing.obj
+         Release\Main.obj
+         Release\MemoryScan.obj
+         Release\ModuleSecurity.obj
+         Release\nospread.obj
+         Release\weaponslist.obj
+         Release\OffsetScan.obj
+         Release\opengl.obj
+         Release\json_reader.obj
+         Release\json_value.obj
+         Release\json_writer.obj
+         Release\socket.obj
+         Release\UserMsgs.obj
+         Release\parsemsg.obj
+         Release\ways.obj
+            Создается библиотека C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Release\Engine Hack Base.lib и объект C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Release\Engine Hack Base.exp
+         Создание кода
+         Создание кода завершено
+         Engine Hack Base.vcxproj -> C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Release\Engine Hack Base.dll
+     1>Сборка проекта "C:\Users\Администратор\Desktop\Программы\Programing\[C] COEDS\Engine Hack Base\Engine Hack Base\Engine Hack Base.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.37

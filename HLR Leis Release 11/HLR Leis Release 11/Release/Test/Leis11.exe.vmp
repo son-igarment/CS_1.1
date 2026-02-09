@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+	<Protection
+		InputFileName=".\Leis11.exe"
+		Options="8072"
+		CheckKernelDebugger="true"
+		VMCodeSectionName=".csxr.ru"
+		>
+		<Messages>
+			<Message
+				Id="0"
+			/>
+			<Message
+				Id="1"
+			/>
+			<Message
+				Id="2"
+			/>
+		</Messages>
+		<Folders
+		/>
+		<Procedures>
+			<Procedure
+				MapAddress="EntryPoint"
+				CompilationType="2"
+			/>
+		</Procedures>
+	</Protection>
+	<Script>function GetRandomSectionName: String;
+var I:Integer;
+    B:Byte;
+begin
+  Result:=&apos;&apos;;
+  for I:=1 to 8 do
+   begin
+    B:=32+Random(Ord(&apos;z&apos;)-32);
+    Result:=Result+Chr(B);
+   end; 
+end;
+
+procedure OnAfterSaveFile;
+var I:Integer;
+begin
+  with VMProtector.OutputFile do
+   for I:=0 to Sections.Count-1 do
+    Sections.Items[I].Name:=GetRandomSectionName;
+end;
+
+procedure OnBeforeSaveFile;
+var I:Integer;
+    S:AnsiString;
+begin
+  S:=&apos;&apos;;
+  for I:=1 to 64 do
+   S:=S+Chr(0);
+  with VMProtector.OutputFile do
+   begin
+    Position:=$80;
+    Write(S,Length(S));
+   end;
+end;</Script>
+</Document>

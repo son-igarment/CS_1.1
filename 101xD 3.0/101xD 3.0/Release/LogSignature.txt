@@ -1,0 +1,19 @@
+g_pClient: 0x5B1E320
+g_pEngine: 0x4A86A98
+g_pStudio: 0xDDD8D50
+ClientBase: 0xDCA0000
+SpeedPtr: 0x4A698E8
+SoundPtr: 0x49C2BC0
+Start Hook ... 
+Start Hook God 
+Start Hook HookUserMsg ... 
+Start Hook HookUserMsg God 
+Start Hook AddCommand ... 
+Start Hook AddCommand God 
+Start Hook RegisterVariable ... 
+Start Hook RegisterVariable God 
+Call Initialize ... 
+Call Initialize God 
+Call HUD_Init ... 
+Call HUD_Init GoD 
+GameInfo: 0x49878E0
